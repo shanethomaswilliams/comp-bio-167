@@ -1,9 +1,8 @@
 import numpy as np
 import pandas as pd
-import sklearn #?
 import sys
 
-SEED = 42
+# SEED = 42
 PATH = "cafa-5-protein-function-prediction/"
 
 """
@@ -19,6 +18,9 @@ def tier1_mean(merged_conf):
     return out
 
 
+# I feel this one has very similar appraoch to logistics regression, which is
+# in tier2, and to choose weights we would need to train the model and do cv.
+# should we just leave it to logistics regression in tier2 methods?
 def tier1_weighted_mean(merged_conf):
     def weighted_mean(weights):
         out = merged_conf[['protein_id', 'GO_term']].copy()
@@ -84,11 +86,7 @@ def tier1_rank_avg(merged_conf):
     print(protein_preds.head())
     return protein_preds
 
- """TODO： implement the fmax function to use as metrics in choosing
- weights in weighted_mean method"""
-#def fmax (confidence, y):
-
-
+"""usage: python tier1.py [test terms predictioin files]"""
 if __name__ == "__main__":
     dfs = []
     for i, filename in enumerate(sys.argv[1:]):
