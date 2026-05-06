@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-04-18T19:17:18",
+  "source_config": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/config.json",
+  "model_names": [
+    "sequence",
+    "structure",
+    "protgoat"
+  ],
+  "source_paths": {
+    "sequence": {
+      "train": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/sequence_team/clean/CAFA_trim_thr-10/train_submission.tsv",
+      "test": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/sequence_team/clean/CAFA_trim_thr-10/test_submission.tsv"
+    },
+    "structure": {
+      "train": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/structure_team/clean/CAFA_trim_thr-50/train_predictions.tsv",
+      "test": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/structure_team/clean/CAFA_trim_thr-50/test_predictions.tsv"
+    },
+    "protgoat": {
+      "train": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/ProtGOAT/protgoat_train_predictions.tsv",
+      "test": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/ProtGOAT/protgoat_test_predictions.tsv"
+    }
+  },
+  "outputs": {
+    "train": "data/final_data_v2/train_merged.tsv",
+    "test": "data/final_data_v2/test_merged.tsv",
+    "train_terms": "data/final_data_v2/train_terms.tsv",
+    "ia_weights": "data/final_data_v2/IA.txt",
+    "splits_dir": "data/final_data_v2/splits"
+  },
+  "splits": {
+    "n_folds": 5,
+    "seed": 42,
+    "pools": {
+      "all": {
+        "n_proteins": 142246,
+        "n_folds": 5
+      },
+      "mf": {
+        "aspect": "MFO",
+        "n_proteins": 78637,
+        "n_folds": 5
+      },
+      "bp": {
+        "aspect": "BPO",
+        "n_proteins": 92210,
+        "n_folds": 5
+      },
+      "cc": {
+        "aspect": "CCO",
+        "n_proteins": 92912,
+        "n_folds": 5
+      }
+    }
+  },
+  "train_summary": {
+    "name": "train",
+    "rows": 123405629,
+    "proteins": 142246,
+    "go_terms": 9108,
+    "conf_sequence_nonzero": 3625962,
+    "conf_sequence_coverage": 2.94,
+    "conf_structure_nonzero": 121173554,
+    "conf_structure_coverage": 98.19,
+    "conf_protgoat_nonzero": 7782584,
+    "conf_protgoat_coverage": 6.31,
+    "positives": 4477309,
+    "positive_rate": 3.63
+  },
+  "test_summary": {
+    "name": "test",
+    "rows": 126032426,
+    "proteins": 141934,
+    "go_terms": 14766,
+    "conf_sequence_nonzero": 18318318,
+    "conf_sequence_coverage": 14.53,
+    "conf_structure_nonzero": 122634206,
+    "conf_structure_coverage": 97.3,
+    "conf_protgoat_nonzero": 9448778,
+    "conf_protgoat_coverage": 7.5
+  }
+}

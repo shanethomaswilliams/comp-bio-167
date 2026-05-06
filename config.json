@@ -1,0 +1,19 @@
+{
+  "data": {
+    "sequence": {
+      "train_path": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/sequence_team/clean/CAFA_trim_thr-10/train_submission.tsv",
+      "test_path": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/sequence_team/clean/CAFA_trim_thr-10/test_submission.tsv"
+    },
+    "structure": {
+      "train_path": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/final_data_trimmed/train_structure_only_trimmed.tsv",
+      "test_path": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/final_data_trimmed/test_structure_only_trimmed.tsv"
+    },
+    "protgoat": {
+      "train_path": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/ProtGOAT/protgoat_train_predictions.tsv",
+      "test_path": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/ProtGOAT/protgoat_test_predictions.tsv"
+    }
+  },
+  "train_features": "",
+  "train_labels": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/training_labels/Train/train_terms.tsv",
+  "ia_labels": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/data/training_labels/IA.txt"
+}

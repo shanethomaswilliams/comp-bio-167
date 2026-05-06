@@ -1,0 +1,82 @@
+[
+  {
+    "Model_Full": "Max (Tier 1)",
+    "Model": "Max",
+    "Score": 0.55166,
+    "Group": "Tier 1",
+    "Complexity": 2,
+    "Y_Offset": -0.002
+  },
+  {
+    "Model_Full": "Mean (Tier 1)",
+    "Model": "Mean",
+    "Score": 0.56812,
+    "Group": "Tier 1",
+    "Complexity": 2,
+    "Y_Offset": 0.002
+  },
+  {
+    "Model_Full": "Rank Average (Tier 1)",
+    "Model": "Rank Average",
+    "Score": 0.55223,
+    "Group": "Tier 1",
+    "Complexity": 2,
+    "Y_Offset": -0.005
+  },
+  {
+    "Model_Full": "Linear Regression (Tier 2)",
+    "Model": "Linear Regression",
+    "Score": 0.54761,
+    "Group": "Tier 2",
+    "Complexity": 3,
+    "Y_Offset": -0.002
+  },
+  {
+    "Model_Full": "Logistic Regression (Tier 2)",
+    "Model": "Logistic Regression",
+    "Score": 0.55013,
+    "Group": "Tier 2",
+    "Complexity": 3,
+    "Y_Offset": 0.001
+  },
+  {
+    "Model_Full": "MLP (Tier 2)",
+    "Model": "MLP",
+    "Score": 0.54657,
+    "Group": "Tier 2",
+    "Complexity": 5,
+    "Y_Offset": 0.003
+  },
+  {
+    "Model_Full": "XGBoost (Tier 2)",
+    "Model": "XGBoost",
+    "Score": 0.5471,
+    "Group": "Tier 2",
+    "Complexity": 4,
+    "Y_Offset": 0
+  },
+  {
+    "Model_Full": "MLP + Emb (Tier 3)",
+    "Model": "MLP + Emb",
+    "Score": 0.53746,
+    "Group": "Tier 3",
+    "Complexity": 6,
+    "Y_Offset": -0.003
+  },
+  {
+    "Model_Full": "Soft MoE (Tier 3)",
+    "Model": "Soft MoE",
+    "Score": 0.54213,
+    "Group": "Tier 3",
+    "Complexity": 6,
+    "Y_Offset": 0
+  },
+  {
+    "Model_Full": "Hard MoE (Tier 3)",
+    "Model": "Hard MoE",
+    "Score": 0.52922,
+    "Group": "Tier 3",
+    "Complexity": 6,
+    "Y_Offset": 0
+  }
+]

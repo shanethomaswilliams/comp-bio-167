@@ -1,0 +1,16 @@
+{
+  "go_obo": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/go-basic.obo",
+  "output_dir": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/go_dag_output",
+  "models": {
+    "logistic_regression": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/ensemble_20260423_023530/logreg_test_submission.tsv",
+    "max": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/ensemble_20260423_021038/max_all_test_submission.tsv",
+    "mean": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/ensemble_20260423_021038/mean_all_test_submission.tsv",
+    "rank_avg": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/ensemble_20260423_021038/rank_avg_all_test_submission.tsv",
+    "linear_regression": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/weighted_mean/tier2/weighted_mean_all_test_submission.tsv",
+    "mlp": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/mlp_trim/tier2/mlp_all_test_submission.tsv",
+    "xgb": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/xgb_run/tier2/xgb_all_test_submission.tsv",
+    "mlp_embed": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/mlp_embeddings/tier2/mlp_enriched_all_test_submission.tsv",
+    "soft_moe": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/soft_moe_routing/tier3/soft_moe_enriched_all_test_submission.tsv",
+    "hard_moe": "/Users/shanewilliams/GradSchool/Spring2026/CompBio/final_project/comp-bio-167/results/hard_routing/tier3/hard_routing_enriched_all_test_submission.tsv"
+  }
+}
