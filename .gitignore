@@ -1,0 +1,16 @@
+*.tsv
+*.html
+*.css
+*.h5
+*.fasta
+*.obo
+*.log
+*.txt
+*.txt.gz
+*.tsv.gz
+*.csv
+*.zip
+*.pkl
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
